@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
